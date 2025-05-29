@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web MIDI APIによるMTC同期</title>
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <div>
+      <label>
+        出力先:
+        <select id="midiOutSelect"></select>
+      </label>
+    </div>
+    <div>
+      <label>
+        開始秒:
+        <input id="startSeconds" type="number" min="0" value="0" />
+      </label>
+      <button id="toggleBtn">送信開始</button>
+    </div>
+  </body>
+</html>

@@ -1,5 +1,6 @@
 # WebMIDIAPI-MTC
-Web MIDI APIを利用して、ブラウザーからMTCをSendします。ブラウザーがMTC Senderになります。  
+Web MIDI APIを利用して、ブラウザーからMTCをSendします。  
+ブラウザーがMTC Senderになります。  
 MTC ReceiverになるWaveTone等のために利用するイメージ。
 
 ## For Developers
